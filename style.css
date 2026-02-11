@@ -1,0 +1,56 @@
+* {
+    font-family: "Courier New", Courier, monospace;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+body {
+    background-image: url(https://hips.hearstapps.com/hmg-prod/images/top-view-of-baked-beans-in-tomato-sauce-for-royalty-free-image-1763577988.pjpeg);
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 5% 90% 5%;
+}
+
+header {
+    width: 100vw;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0rem 0.25rem 0.5rem;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+}
+
+.beans {
+    height: 40vh;
+    transition: all 0.25s;
+    -webkit-transition: all 0.25s;
+    -moz-transition: all 0.25s;
+    -ms-transition: all 0.25s;
+    -o-transition: all 0.25s;
+    filter: drop-shadow(0.25rem 0.25rem 0.5rem);
+    -webkit-filter: drop-shadow(0.25rem 0.25rem 0.5rem);
+}
+
+.beans:hover {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+footer {
+    width: 100vw;
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+    padding: 1rem;
+    box-shadow: 0rem -0.25rem 0.5rem;
+}
