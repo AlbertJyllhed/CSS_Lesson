@@ -25,7 +25,7 @@ header h1 {
     font-size: 4rem;
     background-image: url(https://hips.hearstapps.com/hmg-prod/images/top-view-of-baked-beans-in-tomato-sauce-for-royalty-free-image-1763577988.pjpeg);
     background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: transparent;
 }
 
 main {
